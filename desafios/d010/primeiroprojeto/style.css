@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family:'BebasNeue';
+    src: url('../uteis/fontes/fonteh1principal/BebasNeue/BebasNeue.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'idroid';
+    src: url('../uteis/fontes/idroid.otf') format('opentype');
+}
+
+header{
+    /*display: block;*/
+    background-image :linear-gradient(to bottom,#3CD982,#34B66E,#2B975B,#216F45,#165230);
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.473);
+    padding: 35px;
+    margin: -21px -9px;
+}
+
+p#subtitulo{
+    text-align: center;
+}
+
+h1#principal{
+    font-family: 'BebasNeue';
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.473);
+    text-align: center;
+}
+
+nav{
+    position: relative;
+    left: -1.5em;
+    bottom: -1.5em;
+}
+
+a{
+    margin: 0px 10px 3px 0px;
+}
+
+nav > a{
+    text-decoration: none;
+    
+}
+
+nav > a:hover{
+    background-color: rgba(255, 255, 255, 0.178);
+    text-decoration: underline;
+    padding: 0.5em;
+    border-radius: 0.3em;
+}
+
+.menu{
+    color: white;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E0AD;
+}
+
+main{
+    background-color: white;
+    /*position: relative;*/
+    position: relative;
+    margin: -2em 4em 1em 4em;
+    padding: 0em 2em 1em 2em;
+}
+
+
+h1#primeirotitulo{
+    background-image: none;
+    background-color: white;
+    padding: 0.5em 0.5em 0.5em 0.3em;
+    margin: 1em 1em 0.5em 0.1em;
+}
+
+.titulos{
+    background-image :linear-gradient(to right,#2b975c6b,#3cd98310);
+    color: #165230;
+    font-family: 'idroid';
+    margin: 1em 1em 0.5em 0.5em;
+    padding: 0em 0em 0em 1em;
+    position: relative;
+    border: -2em ;
+}
+
+.texto{
+    text-align: justify;
+    text-indent: 1em;
+    font-size: 1.3em;
+}
+
+.links{
+    color: #165230;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 0em;
+}
+
+img#bugdroid{
+    margin: center;
+}
+
+div{
+    background-color: #66d19670;
+    border-radius: 0.5em;
+    padding: 0em 0.5em 0.5em 0.5em;
+}
+
+.list{
+    color: black;
+}
+
+ul{
+    display: inline-block;
+}
+
+.esquerda{
+    background-color: #66d19600;
+    float: left;
+    text-align: justify;
+}
+
+.direita{
+    background-color: #66d19600;
+    float: right;
+    text-align: justify;
+    padding: 0em 0em 0em 3em;
+    position: relative;
+}
+
+h3{
+    background-color: #0ebd5a81;
+    border-radius: 0.5em 0.5em 0em 0em;
+    margin: 0em -0.4em 0em -0.4em;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: #165230;
+    border: 0em 0em 0em 0em solid;
+    margin: 2em -1em -1em -2em;
+    padding: 0.1em 0.1em 0.1em 0.1em;
+}
+
+b{
+    font-size: 1.1em;
+    font-weight: bold;
+}

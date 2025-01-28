@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon/favicon.ico" type="imagens/x-icon">
+    <title>Imagem flexível</title>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitatr a melhor experiência &#x1F92F</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/paisagem-p.png">
+        <source media="(max-width: 1000px)" srcset="imagens/paisagem-m.png">
+        <img src="imagens/paisagem-g.png" alt="Mulher em frente a um penhasco">
+    </picture>
+</body>
+</html>
