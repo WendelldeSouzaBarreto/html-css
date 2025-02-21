@@ -1,5 +1,31 @@
 @charset "UTF-8";
 
-header{
-    background-image: black;
+@font-face {
+    font-family: 'passionone';
+    src: url('fonts/PassionOne-Regular.ttf') format('opentype');
+    font-weight: normal;
+}
+
+header {
+    font-size: cover;
+    text-align: center;
+    background-color: black;
+    margin: -10px;
+    padding: 10px;
+}
+
+header > h1 {
+    
+    color: white;
+    font-family: 'passionone';
+}
+
+header > p {
+    color: white;
+}
+
+header > p > a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-decoration: none;
 }
