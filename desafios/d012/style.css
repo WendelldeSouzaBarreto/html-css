@@ -2,12 +2,16 @@
 
 @font-face {
     font-family: 'passionone';
-    src: url('fonts/PassionOne-Regular.ttf') format('opentype');
-    font-weight: normal;
+    src: url('fonts/passionone/PassionOne-Regular.ttf') format('opentype');
+    font-weight: bold;
 }
 
+@font-face{
+    font-family: 'sriracha';
+    src: url('fonts/sriracha/Sriracha-Regular.ttf') format('opentype');
+    font-weight: bold;
+}
 header {
-    font-size: cover;
     text-align: center;
     background-color: black;
     margin: -10px;
@@ -15,12 +19,15 @@ header {
 }
 
 header > h1 {
-    
+    text-shadow: none;
+    font-size: 10vw;
     color: white;
     font-family: 'passionone';
+    margin: 30px 50px 0px 50px;
 }
 
 header > p {
+    margin-top: 0px;
     color: white;
 }
 
@@ -28,4 +35,21 @@ header > p > a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     text-decoration: none;
+}
+
+main{
+    font-size: 4.5vw;
+    font-family: 'sriracha';
+    background-color: white;
+}
+
+#img1{
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(imagens/imagens/background001.jpg);
+    background-size: cover;
+    display: flex;
+    
 }
