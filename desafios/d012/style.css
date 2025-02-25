@@ -16,6 +16,7 @@ header {
     background-color: black;
     margin: -10px;
     padding: 10px;
+    padding-bottom: 30px;
 }
 
 header > h1 {
@@ -38,18 +39,68 @@ header > p > a {
 }
 
 main{
-    font-size: 4.5vw;
+    margin:0;
+    font-size: 3.9vw;
     font-family: 'sriracha';
     background-color: white;
 }
 
+main > p {
+    margin: 65px 0px 65px 25px;
+}
+
+
 #img1{
-    height: 50vh;
+    position: relative;
+    margin-left: -10px;
+    margin-right: -100px;
+    height: 70vh;
+    width: 100vh;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: center right;
     background-repeat: no-repeat;
     background-image: url(imagens/imagens/background001.jpg);
     background-size: cover;
+    display: flex;   
+}
+
+#conteudo1{
     display: flex;
-    
+    position: absolute;
+    overflow: hidden;
+    margin: 65px 0px 65px 25px;
+    color: white;
+    background-color: rgba(10, 10, 10, 0.5);
+}
+
+#img2{
+    position: relative;
+    height: 70vh;
+    width: 100vh;
+    background-attachment: fixed;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-image: url('imagens/imagens/background002.jpg');
+    background-size: cover;
+    display: flex;  
+}
+
+#conteudo2{
+    display: flex;
+    position: absolute;
+    overflow: hidden;
+    margin: 65px 0px 65px 25px;
+    color: white;
+    background-color: rgba(10, 10, 10, 0.5);
+}
+
+footer{
+    font-size: 20px;
+    font-family: 'passionone';
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin: 4px -25px -8px -25px ;
+    padding: 1px;
 }
