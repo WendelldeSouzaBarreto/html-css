@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Detector de Fatos | Sua Fonte Confiável</title>
+    <style>
+        body { font-family: sans-serif; background: #f4f4f9; margin: 0; padding: 20px; }
+        header { text-align: center; padding: 40px; background: #2c3e50; color: white; border-radius: 8px; }
+        .search-container { margin: -25px auto 20px; text-align: center; }
+        input { padding: 15px; width: 60%; border: none; border-radius: 25px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .card { background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .selo { display: inline-block; padding: 5px 15px; border-radius: 15px; font-weight: bold; text-transform: uppercase; }
+        .falso { background: #ffcccc; color: #cc0000; }
+        .real { background: #ccffcc; color: #006600; }
+        .fonte { color: #3498db; text-decoration: none; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Detector de Fatos</h1>
+    <p>Verifique o que é real e o que é boato.</p>
+</header>
+
+<div class="search-container">
+    <input type="text" placeholder="https://g1.globo.com/saude/chá-de-boldo-cura-calvície">
+</div>
+
+<main>
+    <div class="card">
+        <span class="selo falso">❌ Falso</span>
+        <h2>É falso que o chá de boldo cura a calvície em 2 dias</h2>
+        <p>A mensagem que circula no WhatsApp não possui base científica. Especialistas afirmam que...</p>
+        <a href="https://www.gov.br/saude/pt-br/assuntos/saude-com-ciencia/noticias/2025/marco/cuidado-com-o-uso-de-receitas-caseiras" class="fonte" target="_blank">🔗 Ver fonte oficial do Ministério da Saúde</a>
+    </div>
+
+    <div class="card">
+        <span class="selo real">✅ Verdadeiro</span>
+        <h2>Prefeitura anuncia novo calendário de vacinação</h2>
+        <p>A informação é verdadeira e foi confirmada pela Secretaria de Saúde nesta manhã.</p>
+        <a href="https://ms.dados.sms.fortaleza.ce.gov.br/Calendariodevacinacao2026.pdf" class="fonte">🔗 Ver Diário Oficial</a>
+    </div>
+</main>
+
+</body>
+</html>
